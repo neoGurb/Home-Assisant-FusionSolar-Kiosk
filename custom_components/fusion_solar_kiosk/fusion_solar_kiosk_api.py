@@ -19,7 +19,7 @@ class FusionSolarKioksApi:
         self._host = host
 
     def getRealTimeKpi(self, id: str):
-        url = self._host + '/rest/pvms/web/kiosk/v1/station-kiosk-file?kk=' + id
+        url = self._host + '/pvmswebsite/nologin/assets/build/index.html#/kiosk?kk=' + id
         headers = {
             'accept': 'application/json',
         }
